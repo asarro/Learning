@@ -1,0 +1,8 @@
+
+<div class="mui-container seltable" *ngIf="show" >
+    <mdl-table-selectable mdl-shadow="2"
+    [table-model]="tableModel"
+    [table-model-selected]="selected"
+    (table-model-selectionChanged)="selectionChanged($event)">
+    </mdl-table-selectable>
+</div>
